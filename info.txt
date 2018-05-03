@@ -1,0 +1,7 @@
+localhost:
+username:root
+pass:pass
+
+admin:
+user:himel
+pass:pass

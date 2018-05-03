@@ -1,0 +1,76 @@
+/* CSS Document */
+
+html{ height:100%; width:100%;}
+body{
+	width:100%;height:100%;
+	margin:0;padding:0;border:0;
+	font-family:times new Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-size::14px; line-height:15px;
+	background:#ccc;	
+}
+img{borer:none;}
+a{color:black;}
+a:hover{color:white;}
+
+#header{ height:70px; margin:0; padding:0; text-align:center;color:#000;}
+
+#header h1 { padding:1em ; font-size:2eml margin:0;font-weight:bold;}
+
+#main {height:600px; width:100%; margin:0;padding:0; background:#cc3;}
+
+#footer{clear:both; height:2em ; margin:0;padding:1em; text-align:center;background:#fc6;color:#000;}
+
+/*...........................Navigation.........................*/
+#navigation {
+		  background: gray none repeat scroll 0 0;
+		  color: #fff;
+		  float: left;
+		  height: 100%;
+		  margin: 0;
+		  padding: 0 2em;
+		  width: 236px;
+		}
+
+#navigation a{color:#fff; text-decoration:none; }
+#navigation a:hover{color:#9c3;}
+
+ul.subjects{margin:1em 0; padding-left:0;list-style:none; color:red; font-size:1.2em;}
+ul.pages{padding-left:2em;list-style:square; font-weight:normal; font-size:0.8em;}
+
+.selected{font-weight:bold;  }
+
+
+/*........................Page Content........................*/
+
+#page{
+	float:left;height:100%;width:400px;
+	padding-left:2em;vertical-align:top;
+	background:#cc3;	
+}
+
+#page h2{color:#333; margin-top:1em;}
+#page h3{color:#333;}
+
+#navigation ul {
+  margin-top: 10px;
+}
+#navigation ul li{
+ 
+}
+.subjects{}
+.subjects li {
+  font-size: 20px;
+  margin-bottom: 7px;
+}
+.subjects li ul{}
+.subjects li ul li{}
+
+.message {
+  border: 4px solid orangered;
+  font-size: 21px;
+  margin-left: -19px;
+  margin-top: 15px;
+  padding: 7px;
+  width: 100%;
+}
+

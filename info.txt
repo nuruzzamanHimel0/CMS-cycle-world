@@ -3,5 +3,5 @@ username:root
 pass:pass
 
 admin:
-user:himel
-pass:pass
+user:himel,memia apu
+pass:pass,pass
